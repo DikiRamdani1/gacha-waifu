@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gacha Waifu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Astloch&family=Cinzel&family=Codystar:wght@300&family=Creepster&family=Cutive+Mono&family=Fira+Sans:wght@300&family=Fuggles&family=Gloria+Hallelujah&family=Habibi&family=Inclusive+Sans&family=Indie+Flower&family=Josefin+Sans:wght@200&family=Julee&family=Kalam:wght@300&family=Lobster&family=Londrina+Outline&family=Macondo&family=Metal+Mania&family=Permanent+Marker&family=Playball&family=Rampart+One&family=Rock+Salt&family=Shizuru&family=Tourney:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="head">
+            <h1>Gacha Waifu</h1>
+        </div>
+        <div class="icon-inventory">
+            <i class='bx bxl-yelp' id="btnInventory"></i>
+        </div>
+        <video id="video" autoplay>
+            <source src="gacha.mp4" type="video/mp4">
+        </video>
+        <div class="list-banner">
+            <div class="list" id="list-api">
+                <h1 id="api">Api</h1>
+            </div>
+            <div class="list" id="list-air">
+                <h1 id="air">Air</h1>
+            </div>
+            <div class="list" id="list-angin">
+                <h1 id="angin">Angin</h1>
+            </div>
+            <div class="list" id="list-cahaya">
+                <h1 id="cahaya">Cahaya</h1>
+            </div>
+            <div class="list" id="list-gelap">
+                <h1 id="gelap">Gelap</h1>
+            </div>
+        </div>
+        <div class="bg-content">
+            <div class="content" id="content">
+            <div class="shadow">
+                <div class="name-content" id="name-content">Makima</div>
+                <div class="rate">40% Kemungkinan SSR</div>
+                    <div class="btn">
+                        <button id="gacha-1kali">1 kali</button>
+                        <button id="gacha">10 kali</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-gacha" id="content-gacha">
+            <div class="btn" id="card-btnGacha">
+                <button id="close">Close</button>
+                <button id="gacha-again">10 kali</button>
+            </div>
+            <div class="hasil-gacha" id="hasilGacha">
+                <div class="card-img">
+                    <img src="" id="imgHasilGacha" alt="">
+                </div>
+                <div class="card">
+                    <div class="template"></div>
+                    <div class="text">
+                        <div class="card-name">
+                            <h1 id="namaHasilGacha"></h1>
+                            <p id="roleHasilGacha"></p>
+                        </div>
+                        <p class="p" id="ratingHasilGacha"></p>
+                    </div>
+                    <button id="btnNext">Next >></button>
+                </div>
+            </div>
+        </div>
+        <div class="inventory" id="inventory">
+            <div class="content-inventory">
+                <div class="closeInventory" id="closeInventory">&times;</div>
+                <div class="headInventory">
+                    <h1>Inventory</h1>
+                </div>
+                <div class="resultGacha" id="content-inventory"></div>
+            </div>
+        </div>
+        <div class="showInventory" id="showInventory"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
